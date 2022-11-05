@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-upload-io_local_upload",
+  "name": "@strapi/provider-upload-io_local_upload",
   "version": "1.0.0",
   "description": "Custom strapi upload",
   "main": "index.js",
