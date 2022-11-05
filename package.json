@@ -1,6 +1,6 @@
 {
-  "name": "@strapi/provider-upload-io_local_upload",
-  "version": "1.0.0",
+  "name": "strapi-provider-upload-io_local_upload",
+  "version": "1.0.1",
   "description": "Custom strapi upload",
   "main": "index.js",
   "scripts": {
@@ -39,8 +39,10 @@
   ],
   "homepage": "https://github.com/isaozler/strapi-io-upload#readme",
   "dependencies": {
+    "@google-cloud/storage": "^6.7.0",
     "@strapi/utils": "^4.4.7",
     "fs": "^0.0.1-security",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "slugify": "^1.6.5"
   }
 }
