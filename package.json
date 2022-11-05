@@ -1,0 +1,46 @@
+{
+  "name": "strapi-io-upload",
+  "version": "1.0.0",
+  "description": "Custom strapi upload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaozler/strapi-io-upload.git"
+  },
+  "keywords": [
+    "strapi",
+    "upload"
+  ],
+  "license": "ISC",
+  "strapi": {
+    "isProvider": true
+  },
+  "bugs": {
+    "url": "https://github.com/isaozler/strapi-io-upload/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "author": {
+    "email": "isaozler@gmail.com",
+    "name": "Isa Ozler",
+    "url": "https://isaozler.com"
+  },
+  "maintainers": [
+    {
+      "email": "isaozler@gmail.com",
+      "name": "Isa Ozler",
+      "url": "https://isaozler.com"
+    }
+  ],
+  "homepage": "https://github.com/isaozler/strapi-io-upload#readme",
+  "dependencies": {
+    "@strapi/utils": "^4.4.7",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
